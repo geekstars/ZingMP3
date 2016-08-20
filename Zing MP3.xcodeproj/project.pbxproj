@@ -12,6 +12,8 @@
 		F5001E021D6837BD00054E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5001E001D6837BD00054E41 /* Main.storyboard */; };
 		F5001E041D6837BD00054E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5001E031D6837BD00054E41 /* Assets.xcassets */; };
 		F5001E071D6837BD00054E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5001E051D6837BD00054E41 /* LaunchScreen.storyboard */; };
+		F5001E101D68390A00054E41 /* lead_960.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5001E0F1D68390A00054E41 /* lead_960.jpg */; };
+		F5001E141D683BDA00054E41 /* mp3 logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F5001E131D683BDA00054E41 /* mp3 logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F5001E031D6837BD00054E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5001E061D6837BD00054E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5001E081D6837BD00054E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5001E0F1D68390A00054E41 /* lead_960.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lead_960.jpg; sourceTree = "<group>"; };
+		F5001E131D683BDA00054E41 /* mp3 logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mp3 logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		F5001DF01D6837BD00054E41 = {
 			isa = PBXGroup;
 			children = (
+				F5001E0E1D6838F800054E41 /* Image */,
 				F5001DFB1D6837BD00054E41 /* Zing MP3 */,
 				F5001DFA1D6837BD00054E41 /* Products */,
 			);
@@ -62,6 +67,15 @@
 				F5001E081D6837BD00054E41 /* Info.plist */,
 			);
 			path = "Zing MP3";
+			sourceTree = "<group>";
+		};
+		F5001E0E1D6838F800054E41 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F5001E131D683BDA00054E41 /* mp3 logo.png */,
+				F5001E0F1D68390A00054E41 /* lead_960.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5001E141D683BDA00054E41 /* mp3 logo.png in Resources */,
 				F5001E071D6837BD00054E41 /* LaunchScreen.storyboard in Resources */,
 				F5001E041D6837BD00054E41 /* Assets.xcassets in Resources */,
 				F5001E021D6837BD00054E41 /* Main.storyboard in Resources */,
+				F5001E101D68390A00054E41 /* lead_960.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
